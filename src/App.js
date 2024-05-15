@@ -10,7 +10,6 @@ import AddUser from "./Page/Users/Admin/AddUser";
 function App() {
   return (
     <div className="bg-blue-50">
-    
       <Router>
         <Routes>
           <Route exact path="/" element={<ProfileList profiles={profilesData} />} />
